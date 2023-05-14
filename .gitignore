@@ -28,3 +28,7 @@ hs_err_pid*
 .idea/
 *.iml
 out/
+nacos-client-example/target/**
+nacos-cmdb-plugin-example/target/**
+*/target/**
+**/target/**
