@@ -28,6 +28,7 @@ public class NacosConfigExample {
 
         ConfigService configService = NacosFactory.createConfigService(properties);
 
+        //参考dataId和group https://nacos.io/zh-cn/docs/v2/guide/user/sdk.html
         // 指定配置的 DataID 和 Group
         String dataId = "testDataId";
         String group = "testGroup";
